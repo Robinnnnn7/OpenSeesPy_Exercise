@@ -1,5 +1,4 @@
 # 1.Elastic Truss Analysis.py
-from openseespy.postprocessing.Get_Rendering import * 
 from openseespy.opensees import *
 import numpy as np
 import matplotlib.pyplot as plt
@@ -73,6 +72,3 @@ if abs(ux-0.53009277713228375450)<1e-12 and abs(uy+0.17789363846931768864)<1e-12
     print("Passed!")
 else:
     print("Failed!")
-
-plot_model()
-
